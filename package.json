@@ -1,7 +1,7 @@
 {
   "name": "converter",
   "version": "0.0.0",
-  "description": "csv to json and output json file",
+  "description": "Convert csv file to json file",
   "main": "index.js",
   "repository": {
     "type" : "git",
@@ -11,7 +11,7 @@
     "test": "jasmine-node spec"
   },
   "author": "Masato OSHIMA",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "csv": "~0.3.7",
     "iconv": "~2.0.7"
