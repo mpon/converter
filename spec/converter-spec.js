@@ -7,5 +7,6 @@ describe('コンバーター', function() {
 
 	it("jsonを出力すること", function() {
 		Converter.csv2json();
+		expect(true).toEqual(true);
 	});
 });
