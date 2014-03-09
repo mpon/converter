@@ -1,8 +1,8 @@
 var Converter = require('../lib/converter');
 var fs = require('fs');
 
-var infile = 'sample.csv',
-	outfile = 'sample.json',
+var infile = 'company.csv',
+	outfile = 'company.json',
 	csvPath = 'spec/fixtures/' + infile,
 	jsonPath = 'spec/' + outfile;
 
