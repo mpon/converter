@@ -1,8 +1,12 @@
 {
   "name": "converter",
   "version": "0.0.0",
-  "description": "",
+  "description": "csv to json and output json file",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/mpon/converter.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +20,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.3",
     "grunt-contrib-jshint": "~0.8.0",
-    "jsdoc": "~3.3.0-alpha4"
+    "jsdoc": "~3.3.0-alpha4",
+    "grunt-shell": "~0.6.4"
   }
 }
