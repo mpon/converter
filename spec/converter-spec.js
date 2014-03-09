@@ -82,7 +82,7 @@ describe('Converter csv2json', function() {
 			expect('11102').toEqual(lines[1].cd);
 			expect('11103').toEqual(lines[2].cd);
 
-			companies = Converter.joinJson(companies, lines);
+			companies = Converter.joinJson(companies, lines, 'lines', 'cd');
 
 			expect(3).toEqual(companies[0].lines.length);
 			expect('11101').toEqual(companies[0].lines[0].cd);
