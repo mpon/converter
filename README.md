@@ -7,7 +7,7 @@ not yet.
 ## jsdoc
 
 ```
-$ open docs/index.html
+$ grunt shell:jsdoc
 ```
 
 ## How to Test
@@ -26,6 +26,12 @@ $ npm test
 
 ### test command in develop
 
+jasmine-node auto test
 ```
 $ jasmine-node spec --auto-test --watch . --color
+```
+
+jshint
+```
+$ grunt watch
 ```
