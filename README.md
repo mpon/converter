@@ -28,7 +28,7 @@ $ npm test
 
 jasmine-node auto test
 ```
-$ jasmine-node spec --auto-test --watch . --color
+$ jasmine-node spec --auto-test --watch lib/ --color
 ```
 
 jshint
